@@ -1,0 +1,147 @@
+/*
+
+[Theme Color Stylesheet]
+
+Project     : SEOCrack - Responsive SEO and SMM HTML Template
+Author      : themelooks.com
+Author URI  : https://themeforest.net/user/themelooks
+
+*/
+
+/*------------------------------------*\
+    COLOR
+\*------------------------------------*/
+a:hover,
+a:focus,
+a.active,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li.active > a,
+.dropdown-menu > li.active > a:hover,
+.dropdown-menu > li.active > a:focus,
+.owl-nav > div,
+.product--quantity .ui-spinner-button:active:before,
+.comment--form .rating .br-widget a:after,
+.contact--widget .info li span,
+.tab-nav--widget .nav li.active a,
+.search--widget .input-group-btn button:hover,
+.cart--widget .nav li .info p,
+.header--topbar .nav > li > a span,
+.header--nav-links > li.active > a,
+.header--nav-links > .megamenu > .dropdown-menu > .nav > li.active > a,
+.service--details .title .h2,
+.pricing--item .features .nav li .fa,
+.pricing--item .features .nav li span,
+.team--member:hover .info .h4,
+.gallery--details ul li:before,
+.product--item .price,
+.product-single--summery .price,
+.checkout--info .title .fa,
+.checkout--info .title a:hover,
+.checkout--info .title a.active,
+.checkout--order-info .panel-group .panel-title label,
+.coming-soon--content .copyright p a,
+.f0f--content .title .h1 span,
+.footer--copyright p a {
+    color: #119ee6;
+}
+
+/*------------------------------------*\
+    BACKGROUND COLOR
+\*------------------------------------*/
+.btn-default:before,
+.btn-default.active:hover:before,
+.btn-default.active:focus:before,
+.btn-default.active.focus:before,
+.bg--color-theme,
+.underline:before,
+.preloader,
+.pagination > li > a:hover:before,
+.pagination > li > a:focus:before,
+.pagination > li.active > a:before,
+.pagination > li.active > a:hover:before,
+.pagination > li.active > a:focus:before,
+.pagination > li > span:hover:before,
+.pagination > li > span:focus:before,
+.pagination > li.active > span:before,
+.pagination > li.active > span:hover:before,
+.pagination > li.active > span:focus:before,
+.sidebar--widgets .tags--widget li a:hover,
+.sidebar--widgets .tags--widget li a:focus,
+.cart--widget .nav li .img a:before,
+.header--navbar .navbar-toggle.collapsed:before,
+.checker--section:before,
+.about--skills .progress-bar,
+.feature--item:before,
+.feature--item .icon:before,
+.intro--video a:before,
+.intro--video .fa:after,
+.pricing--item:hover .title:before,
+.pricing--item.active .title:before,
+.pricing--item:hover .icon:before,
+.pricing--item.active .icon:before,
+.pricing--item .icon:after,
+.team--member .img .social:before,
+.gallery--item .img a:before,
+.product--item .offer,
+.product--item .img .buttons li a:hover:before,
+.product-single--img .owl-carousel .item a:before,
+.product-single--tabs .tabs--nav > li.active > a:before,
+.cart--items .table tbody tr td .img:before,
+.coming-soon--content .subscribe form .btn:before {
+    background-color: #119ee6;
+}
+
+::-moz-selection {
+    background-color: #119ee6;
+}
+
+::selection {
+    background-color: #119ee6;
+}
+
+/*------------------------------------*\
+    BORDER COLOR
+\*------------------------------------*/
+.btn-default,
+.btn-default.active:hover,
+.btn-default.active:focus,
+.btn-default.active.focus,
+.form-control:focus,
+.pagination > li > a,
+.pagination > li > span,
+.pagination > li > a:hover,
+.pagination > li > a:focus,
+.pagination > li.active > a,
+.pagination > li.active > a:hover,
+.pagination > li.active > a:focus,
+.pagination > li > span:hover,
+.pagination > li > span:focus,
+.pagination > li.active > span,
+.pagination > li.active > span:hover,
+.pagination > li.active > span:focus,
+.product--quantity .ui-spinner,
+.product--quantity .btn.active:not(:hover),
+.tab-nav--widget,
+.search--widget input:focus + .input-group-btn:before,
+.header--navbar .navbar-toggle.collapsed,
+.header--nav-links > li > a:hover,
+.header--nav-links > li > a:focus,
+.header--nav-links > li.active > a,
+.header--nav-links > li.open > a,
+.header--nav-links > li.open > a:hover,
+.header--nav-links > li.open > a:focus,
+.service--item .header,
+.feature--item,
+.feature--item .icon,
+.intro--video a:hover,
+.intro--video a:focus,
+.product--item .img .buttons li a,
+.product-single--tabs .tabs--nav > li > a,
+.testimonial--clients .owl-item.active + .active .item {
+    border-color: #119ee6;
+}
+
+.coming-soon--content .countdown ul li {
+    border-bottom-color: #119ee6;
+}

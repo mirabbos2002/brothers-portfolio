@@ -1,0 +1,19 @@
+/*
+
+[Custom Stylesheet]
+
+Project     : SEOCrack - Responsive SEO and SMM HTML Template
+Author      : themelooks.com
+Author URI  : https://themeforest.net/user/themelooks
+
+*/
+
+
+@font-face {font-family: "Novecento CondBold!important";
+    src: url("20f3462f0bc12874d2d8566cf7881720.eot"); /* IE9*/
+    src: url("20f3462f0bc12874d2d8566cf7881720.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("20f3462f0bc12874d2d8566cf7881720.woff2") format("woff2"), /* chrome、firefox */
+    url("20f3462f0bc12874d2d8566cf7881720.woff") format("woff"), /* chrome、firefox */
+    url("20f3462f0bc12874d2d8566cf7881720.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("20f3462f0bc12874d2d8566cf7881720.svg#Novecento CondBold") format("svg"); /* iOS 4.1- */
+  }

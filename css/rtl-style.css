@@ -1,0 +1,464 @@
+/*
+
+[RTL Stylesheet]
+
+Project     : SEOCrack - Responsive SEO and SMM HTML Template
+Author      : themelooks.com
+Author URI  : https://themeforest.net/user/themelooks
+
+*/
+
+/*------------------------------------*\
+    GENERAL STYLES
+\*------------------------------------*/
+body {
+    unicode-bidi: embed;
+}
+
+/* FORM CONTROLS */
+.input-group .form-control:first-child,
+.input-group-addon:first-child,
+.input-group-btn:first-child>.btn,
+.input-group-btn:first-child>.btn-group>.btn,
+.input-group-btn:first-child>.dropdown-toggle,
+.input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle),
+.input-group-btn:last-child>.btn-group:not(:last-child)>.btn {
+    border-radius: 0;
+}
+
+.input-group .form-control:last-child,
+.input-group-addon:last-child,
+.input-group-btn:last-child>.btn,
+.input-group-btn:last-child>.btn-group>.btn,
+.input-group-btn:last-child>.dropdown-toggle,
+.input-group-btn:first-child>.btn:not(:first-child),
+.input-group-btn:first-child>.btn-group:not(:first-child)>.btn {
+    border-radius: 0;
+}
+
+/*------------------------------------*\
+    FONT AWESOME
+\*------------------------------------*/
+.fa-key {
+    -webkit-transform: scale(-1,1);
+            transform: scale(-1,1);
+}
+
+.fa-angle-double-left:before {
+    content: "\f101";
+}
+
+.fa-angle-double-right:before {
+    content: "\f100";
+}
+
+/*------------------------------------*\
+    HELPER CLASSES
+\*------------------------------------*/
+/* FLOATS */
+.float--left {
+    float: right;
+}
+
+.float--right {
+    float: left;
+}
+
+/* MARGINS */
+.fm {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+/*------------------------------------*\
+    COMPONENTS
+\*------------------------------------*/
+/* SECTION TITLE */
+.section--title-left {
+    text-align: right;
+}
+
+/* PRODUCT QUANTITY */
+.product--quantity .ui-spinner-input {
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+.product--quantity .ui-spinner-button {
+    left: 0;
+    right: auto;
+}
+
+.product--quantity button[type="submit"] .fa {
+    margin-left: 8px;
+    margin-right: 0;
+}
+
+/* COMMENT LIST */
+.comment--items ul {
+    padding-left: 0;
+    padding-right: 80px;
+}
+
+.comment--item .img {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.comment--item .content .header .h4 {
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.comment--item .content .header .reply .fa {
+    margin-left: 8px;
+    margin-right: 0;
+}
+
+/* COMMENT FORM */
+.comment--form .rating label {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+/* COUNTDOWN */
+.countdown {
+    direction: ltr;
+}
+
+/*------------------------------------*\
+    WIDGETS
+\*------------------------------------*/
+/* ABOUT WIDGET */
+.about--widget .action a .fa {
+    margin-left: 0;
+    margin-right: 8px;
+}
+
+/* LINKS WIDGET */
+.links--widget .nav li a:before {
+    content: "\f177";
+    margin-left: 8px;
+    margin-right: 1px;
+}
+
+.sidebar--widgets .links--widget .nav li a span {
+    float: left;
+}
+
+/* CONTACT WIDGET */
+.contact--widget .info li span {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+/* SEARCH WIDGET */
+.search--widget .form-control {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+/* SOCIAL WIDGET */
+.sidebar--widgets .social--widget li a .fa {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+/*------------------------------------*\
+    HEADER SECTION
+\*------------------------------------*/
+.header--topbar .cart {
+    margin-left: 0;
+    margin-right: 62px;
+}
+
+.header--topbar .cart > li:before {
+    left: auto;
+    right: -33px;
+}
+
+.header--btn {
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+.header--nav-links > li {
+    float: right;
+}
+
+.header--nav-links > li > a > i {
+    margin-left: 0;
+    margin-right: 4px;
+}
+
+/*------------------------------------*\
+    PAGE HEADER SECTION
+\*------------------------------------*/
+.page-header--section .breadcrumb li + li:before {
+    padding-left: 9px;
+    padding-right: 5px;
+}
+
+/*------------------------------------*\
+    CHECKER SECTION
+\*------------------------------------*/
+.checker--form .input-group-btn .btn {
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+/*------------------------------------*\
+    INTRO SECTION
+\*------------------------------------*/
+.intro--content .list .nav > li:before {
+    display: none;
+}
+
+.intro--content .list .nav > li:after {
+    content: "\f100";
+    margin-left: 8px;
+    font-family: "FontAwesome";
+}
+
+.intro--content .buttons .btn {
+    margin-left: 30px;
+    margin-right: 0;
+}
+
+/*------------------------------------*\
+    SERVICES SECTION
+\*------------------------------------*/
+.service--item .header {
+    padding-left: 0;
+    padding-right: 30px;
+    border-left-width: 0;
+    border-right-width: 1px;
+}
+
+/*------------------------------------*\
+    PRICING SECTION
+\*------------------------------------*/
+.pricing--item .features .nav li .fa {
+    margin-left: 7px;
+    margin-right: 0;
+}
+
+/*------------------------------------*\
+    TEAM SECTION
+\*------------------------------------*/
+.team--member .img .social {
+    left: auto;
+    right: -60px;
+}
+
+.team--member:hover .img .social {
+    left: auto;
+    right: 0;
+}
+
+/*------------------------------------*\
+    GALLERY SECTION
+\*------------------------------------*/
+.gallery--item .info {
+    padding-left: 15px;
+    padding-right: 89px;
+}
+
+.gallery--item .info .like {
+    left: auto;
+    right: 0;
+}
+
+.gallery--details .info--img {
+    left: 130px;
+    right: 0;
+}
+
+.gallery--details .info-content .table tbody tr th {
+    padding-left: 15px;
+    padding-right: 0;
+}
+
+.gallery--details .info-content .table tbody tr td {
+    padding-left: 0;
+    padding-right: 17px;
+}
+
+.gallery--details .info-content .table tbody tr td:before {
+    left: auto;
+    right: 0;
+}
+
+.gallery--details ul li:before {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+/*------------------------------------*\
+    PRODUCTS SECTION
+\*------------------------------------*/
+.product--item .offer {
+    left: auto;
+    right: 0;
+}
+
+.product-single--img .owl-nav .fa-long-arrow-left:before {
+    content: "\f105";
+}
+
+.product-single--img .owl-nav .fa-long-arrow-right:before {
+    content: "\f104";
+}
+
+.product-single--summery .meta .rating {
+    margin-left: 14px;
+    margin-right: -2px;
+}
+
+.product-single--summery .social li span {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+/*------------------------------------*\
+    CHECKOUT SECTION
+\*------------------------------------*/
+.checkout--info-form .checkbox span {
+    padding-left: 0;
+    padding-right: 19px;
+}
+
+.checkout--info-form .checkbox span:before,
+.checkout--info-form .checkbox span:after {
+    left: auto;
+    right: 0;
+}
+
+.checkout--billing-info .checkbox span {
+    padding-left: 0;
+    padding-right: 19px;
+}
+
+.checkout--billing-info .checkbox span:before,
+.checkout--billing-info .checkbox span:after {
+    left: auto;
+    right: 0;
+}
+
+/*------------------------------------*\
+    BLOG SECTION
+\*------------------------------------*/
+.post--item .content img.align-left {
+    float: right;
+    margin-left: 30px;
+    margin-right: 0;
+}
+
+.post--item .content img.align-right {
+    float: left;
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+.post--item .content blockquote footer:before {
+    left: auto;
+    right: 0;
+}
+
+.post--item .content blockquote footer {
+    padding-left: 0;
+    padding-right: 12px;
+}
+
+.post--item .content blockquote > p:before {
+    content: "\f10e";
+    margin-left: 15px;
+    margin-right: 1px;
+}
+
+.post--item .content blockquote > p {
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+.post--footer .meta .nav > li > span .fa {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.post--footer .footer-nav .prev .fa {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.post--footer .footer-nav .next .fa {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+/*------------------------------------*\
+    404 SECTION
+\*------------------------------------*/
+.f0f--content .buttons > .btn .fa {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+/*------------------------------------*\
+    BACK TO TOP BUTTON
+\*------------------------------------*/
+.back-to-top-btn {
+    left: 35px;
+    right: auto;
+}
+
+/*------------------------------------*\
+    MEDIA QUERIES
+\*------------------------------------*/
+@media screen and (max-width: 991px) {
+    /* FLOATS */
+    .float--sm-none {
+        float: none;
+    }
+
+    /* HEADER SECTION */
+    .header--nav-links:last-child {
+        margin: 0;
+    }
+
+    .header--nav-links > li {
+        float: none;
+    }
+
+    /* BLOG SECTION */
+    .comment--items ul {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /* CHECKER SECTION */
+    .checker--form .input-group-btn .btn {
+        margin-right: 0;
+    }
+
+    /* CART SECTION */
+    .cart--items .table tbody tr td {
+        padding-left: 15px;
+        padding-right: 152px;
+        text-align: left;
+    }
+
+    .cart--items .table tbody tr td:before {
+        left: auto;
+        right: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* HEADER SECTION */
+    .header--topbar .register {
+        float: right;
+    }
+}
